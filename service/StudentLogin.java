@@ -13,24 +13,28 @@ public static void loginStud() throws IOException {
 		BufferedReader sc = new BufferedReader(new InputStreamReader( System.in));
 		//Scanner sc = new Scanner(System.in);
 		System.out.println();
-		System.out.print("     USERNAME :  ");
+		System.out.print("\t\t\t\t\t\t USERNAME :  ");
 		String uname = sc.readLine();
 		System.out.println();
 		System.out.println();
-		System.out.print("     PASSWORD :  ");
+		System.out.print("\t\t\t\t\t\t PASSWORD :  ");
 		String password = sc.readLine();
 		System.out.println();
 		System.out.println();
 		boolean checkpassword = StudentValidate.checkStudentAccess(uname, password);
 		
 		if(checkpassword) {
+			System.out.println("*************************************************************************************************************************************************");
+			System.out.println("             								Login Successfull");
 			System.out.println();
-			System.out.println("     Login Successfull");
+			System.out.println("*************************************************************************************************************************************************************");
 			AdminHome.display1();
 		}
 		else {
+			System.out.println("*******************************************************************************************************************************************************************");
+			System.out.println("             								Incorrect Password  ");
 			System.out.println();
-			System.out.println(" Incorrect Password  ");
+			System.out.println("**********************************************************************************************************************************************************");
 			HomePage.start();
 
 		}

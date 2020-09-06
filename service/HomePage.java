@@ -11,20 +11,19 @@ import java.lang.System;
 public class HomePage {
 
 	public static void start() throws IOException {
-		System.out.println("................................................................................................................");
+		System.out.println("*********************************************************************************************************************************");
+		System.out.println();
+		System.out.println();
+		System.out.println("                               			     WELCOME                  ");
+		System.out.println("                            		--------------------------");
+		System.out.println();
+		System.out.println("                           			    PROGRADE JOB SEARCH                                             ");
+		System.out.println("              		 --------------------------------------------------------------");
 		System.out.println();
 		System.out.println();
 		System.out.println();
-		System.out.println("                                    WELCOME                  ");
-		System.out.println("                            --------------------------");
 		System.out.println();
-		System.out.println("                               PROGRADE JOB SEARCH                                             ");
-		System.out.println("               --------------------------------------------------------------");
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println("................................................................................................................");
+		System.out.println("**********************************************************************************************************************************");
 		System.out.println();
 		System.out.println();
 		System.out.println();
@@ -32,19 +31,19 @@ public class HomePage {
 		
 			
 		
-		System.out.println("    ENTER  YOUR  CHOICE ");
+		System.out.println("\t\t\t\t\t\tENTER  YOUR  CHOICE ");
 		System.out.println();
 		System.out.println();
-		System.out.println("    1  ---   SIGNUP    ");
+		System.out.println("\t\t\t\t\t\t 1  ---   SIGNUP    ");
 		System.out.println();
-		System.out.println("    2  ---   LOGIN AS STUDENT  ");
+		System.out.println("\t\t\t\t\t\t 2  ---   LOGIN USER  ");
 		System.out.println();
-		System.out.println("    3  ---   LOGIN AS HR   ");
+		System.out.println("\t\t\t\t\t\t 3  ---   LOGIN ADMIN   ");
 		System.out.println();
-		System.out.println("    4  ---   EXIT   ");
+		System.out.println("\t\t\t\t\t\t 4  ---   EXIT   ");
 		System.out.println();
 		System.out.println();
-		System.out.print(" ---------------------------------------------------------------------------------------------------------------   ");
+		System.out.println(" ---------------------------------------------------------------------------------------------------------------------------------------   ");
 		System.out.println();
 		Scanner sc = new Scanner(System.in);
 		int choice = sc.nextInt();

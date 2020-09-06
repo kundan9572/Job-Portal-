@@ -12,7 +12,7 @@ public class Main {
 		
 		HomePage home = new HomePage();
 		home.start();
-		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
+		//BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
 
 	}
 

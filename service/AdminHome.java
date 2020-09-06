@@ -21,36 +21,36 @@ public class AdminHome {
 		
 		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
 
-		
-		
+		System.out.println("\n\n\n\n\n");
 		System.out.println();
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
 		System.out.println();
-		System.out.println("                                   WELCOME HR'S                       ");
+		System.out.println("***********************************************************************************************************************************************");
 		System.out.println();
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
+		System.out.println("                                  		 WELCOME                       ");
+		System.out.println("                           -----------------------------------------------");
+		System.out.println("***********************************************************************************************************************************************");
 		System.out.println();
 		System.out.println();
 		
 		while(true) {
 		System.out.println();
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
+		System.out.println("---------------------------------------------------------------------------------------------------------------------------------------------");
+		System.out.println("\t\t\t\t\t\t Choose a option  :");
 		System.out.println();
-		System.out.println("    1---->   POST NEW JOB ROLE  ");
+		System.out.println("\t\t\t\t\t\t 1---->   POST NEW JOB ROLE  ");
 		System.out.println();
-		System.out.println("    2---->   REMOVE JOB  ");
+		System.out.println("\t\t\t\t\t\t 2---->   REMOVE JOB  ");
 		System.out.println();
-		System.out.println("    3---->   VIEW JOB");
+		System.out.println("\t\t\t\t\t\t 3---->   VIEW JOB");
 		System.out.println();
-		System.out.println("    4---->   SEARCH CANDIDATE  ");
-		System.out.println();
-		System.out.println("    5---->   LOGOUT ");
+		System.out.println("\t\t\t\t\t\t 4---->   LOGOUT ");
 		System.out.println();
 		System.out.println();
-		System.out.print("     Choose a option  :   ");
+		System.out.println();
 		int choice = Integer.parseInt(br.readLine());
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
 		System.out.println();
+		System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------");
+		
 		int temp =0;
 		
 	switch(choice) {
@@ -62,12 +62,8 @@ public class AdminHome {
 				 break;
 
 		case 3 : job.display(list);
-					break;
-		
-//		case 4 : Search.candidate();
-//				break;
-		case 5 : HomePage.start();
-		
+				break;
+		case 4 : HomePage.start();
 				 break;
 		}
 	
@@ -80,11 +76,6 @@ public class AdminHome {
 	
 	
 	}
-	
-	
-	
-	
-	
 	
 	
 	
@@ -108,27 +99,30 @@ public class AdminHome {
 		
 		
 		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
+		System.out.println("\n\n\n\n\n\n\n\n");
+		System.out.println("***********************************************************************************************************************************************");
 		System.out.println();
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
-		System.out.println();
-		System.out.println("                    WELCOME STUDENT              ");
-		System.out.println();
+		System.out.println("                    					  WELCOME                                     ");
+		System.out.println("                       ---------------------------------------------------");
 		System.out.println();
 		System.out.println();
-		System.out.println("--------------------------------------------------------------------------------------------------------------");
+		System.out.println("***********************************************************************************************************************************************");
 		System.out.println();
 		
 		while(true) {
 		System.out.println();
-		System.out.println("     1--->   FIND JOB ");
+		System.out.println("\t\t\t\t\t\t Choose your choice  :");
 		System.out.println();
-		System.out.println("     2--->   APPLY JOB");
 		System.out.println();
-		System.out.println("     3--->   VIEW PROFILE");
+		System.out.println("\t\t\t\t\t\t 1--->   APPLY JOB ");
 		System.out.println();
-		System.out.println("     4--->   CREATE PORTFOLIO");
+	//	System.out.println("\t\t\t\t\t\t 2--->   APPLY JOB");
+	//	System.out.println();
+		System.out.println("\t\t\t\t\t\t 2--->   VIEW PROFILE");
 		System.out.println();
-		System.out.println("     5--->   LOGOUT ");
+		System.out.println("\t\t\t\t\t\t 3--->   CREATE PORTFOLIO");
+		System.out.println();
+		System.out.println("\t\t\t\t\t\t 4--->   LOGOUT ");
 		System.out.println();
 		System.out.print("  --------------------------------------------------------------------------------------------------------------");
 		System.out.println();
@@ -148,14 +142,14 @@ public class AdminHome {
 	
 		case 1: job.display(list);      //jobadd.addjob();
 				break;
-		case 2 : ApplyJob.display();
-				ApplyJob.display1();
+	//	case 2 : ApplyJob.display();
+	//			ApplyJob.display1();
+	//	 		 break;
+		case 2 : Profile.display( createportfolio);
 		 		 break;
-		case 3 : Profile.display( createportfolio);
-		 		 break;
-		case 4 : createportfolio = portfolio.create();
+		case 3 : createportfolio = portfolio.create();
 				 break;		
-		case 5 : temp=1;
+		case 4 : temp=1;
 				 HomePage.start();
 		 		 break;
 //		

@@ -12,10 +12,12 @@ public static void signup() throws IOException {
 		
 		//ArrayList<String> signupdetails = new ArrayList<String>();
 		
-		System.out.println("----------------------------------------------------------------------------");
+		System.out.println("************************************************************************************************************************");
 		System.out.println();		
-		System.out.println("                         SIGNUP                   ");
-		System.out.println("----------------------------------------------------------------------------");
+		System.out.println("                         						SIGNUP                   ");
+		System.out.println("                                --------------------------------------------------------------------");
+		System.out.println();
+		System.out.println("************************************************************************************************************************");
 		System.out.println();
 		System.out.println();
 		System.out.println();
@@ -23,29 +25,31 @@ public static void signup() throws IOException {
 		
 		BufferedReader sc = new BufferedReader(new InputStreamReader( System.in));
 		//Scanner sc = new Scanner(System.in);
-		System.out.print("     Enter Your Name :    ");
+		System.out.print("     \t\tEnter Your Name :    ");
 		String name = sc.readLine();
 		System.out.println();
 		System.out.println();
-		System.out.print("     Enter Your Email ID  :   ");
+		System.out.print("     \t\tEnter Your Email ID  :   ");
 		String email = sc.readLine();
 		System.out.println();
 		System.out.println();
-		System.out.print("     Create a New Password  :    ");
+		System.out.print("     \t\tCreate a New Password  :    ");
 		String passowrd = sc.readLine();
 		System.out.println();
 		System.out.println();
-		System.out.print("     Enter Your Gender  :    ");
+		System.out.print("     \t\tEnter Your Gender  :    ");
 		String gender = sc.readLine();
 		System.out.println();
 		System.out.println();
-		System.out.print("     Enter Your Age  :     ");
+		System.out.print("     \t\tEnter Your Age  :     ");
 		int age = Integer.parseInt(sc.readLine());
 
 		System.out.println();
 		System.out.println();
-		System.out.println("   Your Details has been successfully recorder .");
-		System.out.println("-------------------------------------------------------------------------------");
+		System.out.println("\t\t\t\t\t Your Details has been successfully recorder .");
+		System.out.println("--------------------------------------------------------------------------------------------------------------------------------");
+		
+
 		HomePage.start();
 		
 	}

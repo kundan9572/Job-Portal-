@@ -39,6 +39,8 @@ public class JobAdd {
 		
 		list.add(itjob);
 		
+	
+		
 //		ExcelGeneration  excelgeneration = new ExcelGeneration();
 //		excelgeneration.excelgenerate(itjob,list); 
 		
@@ -62,7 +64,7 @@ public class JobAdd {
 			int jobnum = Integer.parseInt(br.readLine());
 			System.out.println("");
 			
-		
+			
 			int removeid = list.indexOf(jobnum);
 			System.out.println(removeid);
 			

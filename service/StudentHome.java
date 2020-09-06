@@ -26,13 +26,13 @@ public class StudentHome {
 		
 		BufferedReader br = new BufferedReader( new InputStreamReader(System.in));
 		System.out.println();
-		System.out.println("-------------------------------------------------------------------------------");
+		System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println();
-		System.out.println("                    WELCOME STUDENT              ");
+		System.out.println("                                   					 WELCOME STUDENT              ");
 		System.out.println();
 		System.out.println();
 		System.out.println();
-		System.out.println("--------------------------------------------------------------------------------");
+		System.out.println("------------------------------------------------------------------------------------------------------------------------------------------");
 		System.out.println();
 		
 		while(true) {
@@ -47,7 +47,7 @@ public class StudentHome {
 		System.out.println();
 		System.out.println("     5--->   LOGOUT ");
 		System.out.println();
-		System.out.print("  --------------------------------------------------------------------------------------   ");
+		System.out.print("  ------------------------------------------------------------------------------------------------------------------------------------------   ");
 		System.out.println();
 		
 		int temp =0 ;
